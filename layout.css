@@ -1,0 +1,120 @@
+    /* @media screen and (min-width:480px) and (max-width:1500px){ */
+
+
+        div {
+            border: 0.5px solid black;
+            display: inline-block;
+            box-sizing: border-box;  
+        
+        }
+        #a {
+            display: block;
+        height: 100px;
+        width: 960px;
+        }
+        #b {
+            height: 600px;
+            width: 200px;
+            float: left;
+        }
+        #cd {
+            
+            display: inline-grid;
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 0px;
+        }
+       
+        #efgh {
+            display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 0px;
+
+        }
+        #c , #d {
+            height: 200px;
+            width: 380px; 
+            
+          }
+        
+          #e , #f , #g , #h  {
+            height: 250px;
+            width: 190px;
+          }
+        
+        #i{
+            height: 150px;
+            width: 760px;
+
+        }
+    /* } */
+
+
+    @media (max-width:480px) {
+
+
+        div {
+            border: 0.5px solid black;
+            /* display: inline-block; */
+            box-sizing: border-box;  
+        
+        }
+        #a {
+            display: block;
+        height: 75px;
+        width: 480px;
+        }
+        #b {
+            height: 150px;
+            width: 480px;
+        }
+
+        #cd {
+            
+            display: inline-grid;
+            grid-template-columns: auto ;
+            grid-column-gap: 0px;
+        }
+       
+        #efgh {
+            
+            display: inline-grid;
+            grid-template-columns: auto auto;
+            grid-column-gap: 0px;
+        }
+        #c , #d {
+            height: 125px;
+            width: 480px; 
+            background-color: lightgrey;            
+          }
+        
+         #e , #f , #g , #h  {
+            height: 250px;
+            width: 240px;
+          }
+        
+
+
+
+        /* #c {
+            height: 125px;
+            width: 480px;
+
+        }
+        #d {
+            height: 480px;
+            width: 125px;
+
+        }
+        #efgh{
+            height: 250px;
+            width: 240px;
+            display: inline-block;
+
+        } */
+       
+        #i{
+            height: 80px;
+            width: 480px;
+
+        }
+    }
